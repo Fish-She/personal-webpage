@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Webpage</title>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="navbar navbar-default navbar-fixed-top " id="banner">
+        <div class="container">
+            <div><a href="#top" class="scrollable">FishShe</a></div>
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbar" role="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="scrollable" href="#top">ABOUT</a></li>
+                    <li><a class="scrollable" href="#show">SHOW</a></li>
+                    <li><a class="scrollable" href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <a id="top" name="home"></a>
+    <main>
+        <header>
+            <div class="intro-text">
+                <p>热爱前端，能够熟练熟练前端基本技术。喜欢学习新技术，喜欢研究各种前端技术，对前端非常感兴趣，我希望能够在这条路走下去，已成为全栈工程师为目标。</p>
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <hr class="star-bright" /><span class="glyphicon glyphicon-chevron-right"></span>
+                <p class="skills">使用JavaScript/HTML/CSS/NodeJS开发网站</p>
+            </div>
+            <img src="http://ww1.sinaimg.cn/small/b2a65ecdjw8fb1zfcngezj20hs0hsaaf.jpg" alt="" />
+        </header>
+        <section id="show">
+            <h2>SHOW</h2>
+            <hr class="star-bright" />
+            <ul class="grid">
+                <li><img src="http://qlip.in/images/webbrandaxis.jpg" alt="" /></li>
+                <li><img src="http://qlip.in/images/webbrandaxis.jpg" alt="" /></li>
+                <li><img src="http://qlip.in/images/webbrandaxis.jpg" alt="" /></li>
+                <li><img src="http://qlip.in/images/webbrandaxis.jpg" alt="" /></li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>CONTACT ME</h2>
+            <hr class="star-bright" />
+            <div>
+                <form id="contactForm" novalidate="">
+                    <div class="form-item">
+                        <label for="“name”">名字</label>
+                        <input id="name" type="text" placeholder="Name" required="">
+                    </div>
+                    <div class="form-item">
+                        <label for="“email”">邮箱</label>
+                        <input id="email" type="email" placeholder="Email Address" required="">
+                    </div>
+                    <div class="form-item">
+                        <label for="“phone”">电话号码</label>
+                        <input id="phone" type="tel" placeholder="Phone Number" required="">
+                    </div>
+                    <div class="form-item">
+                        <label for="“message”">消息</label>
+                        <textarea id="message" rows="5" placeholder="Message" required=""></textarea>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-default btn-block">发送</button>
+                </form>
+                <div>
+                    <p>如果你想了解更多关于我的信息的话，请联系我。比如说你想要了解我的简历信息，或者是需要我为你开发一个网站，或者只是想要和我交个朋友，和我交流技术，和我谈“对象”，哈哈，那么请你一定要我和我联系</p>
+                    <p>我一定会尽快回复你的</p>
+                    <p>最后祝你生活愉快，请不要故意骚扰我 0-0</p>
+                </div>
+            </div>
+        </section>
+        <div id="go-top">
+            <a class="button scrollable" href="#top"><span class="glyphicon glyphicon-hand-up"></span></a>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-above">
+            <div>
+                <h3>关于页面</h3>
+                <p>由<a href="http://qlip.in">FishShe</a>创作.</p>
+            </div>
+            <div>
+                <h3>其它网站</h3>
+                <ul>
+                    <li><a class="button social" href="#">GitHub</a></li>
+                    <li><a class="button social" href="#">博客园</a></li>
+                    <li><a class="button social" href="#">简书</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer-below">FishShe ©
+            <script>
+            document.write(new Date().getFullYear())
+            </script>. All Rights Reversed
+        </div>
+    </footer>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
